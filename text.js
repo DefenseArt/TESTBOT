@@ -25,5 +25,5 @@ client.on('message', msg => {
     msg.channel.send('헉;;');
   }
 });
-access_token = os.environ["BOT_TOKEN"]
-client.login(acces_token);
+
+client.login(process.env.TOKEN);
