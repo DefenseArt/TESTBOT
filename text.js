@@ -25,4 +25,4 @@ client.on('message', msg => {
     msg.channel.send('헉;;');
   }
 });
-client.login('OTMzNjE0MjQzODY4MjA1MDY3.YekGBQ.uGonfqq2CGOlCrJ_pdcyvUb_CrU');
+client.login(TOKEN);
